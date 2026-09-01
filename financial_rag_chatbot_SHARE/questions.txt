@@ -1,0 +1,34 @@
+1) What was Apple's net income in 2022?
+Net income was $96,995 million in 2022.  x
+2) What was Apple's total net sales in 2023?
+Revenue was $383,285 million in 2023.
+3) What were Apple's Research and Development expenses in 2023?
+Research and Development was $29,915 million in 2023.
+4) What was Apple's revenue in 2019?
+Revenue was $383,285 million in 2019
+5) What was Microsoft's operating expenses in 2023?
+In 2023, Research and Development was 27,195 million, Sales and Marketing was 22,759 million. The total operating expenses is not explicitly stated in the source.
+6) What was Microsoft's revenue in 2023?
+Microsoft's revenue was $211,915 million in 2023.
+7) What was Tesla's net income in 2023?
+Net income was $14,974 million in 2023.
+8) What was Tesla's total revenue in 2022?
+Based on the information provided in the consolidated statements of cash flows for Tesla, Inc., the total net sales (revenue) reported in 2022 were $12,587 million. This can be found under the "Cash Flows from Operating Activities" section, where it states:      
+
+Net income 14,974 12,587 $ 5,644   
+Adjustments to reconcile net income to net cash provided by operating   x
+
+What was Microsoft's net income in 2023?
+Microsoft's operating income was $88,523 million in 2023.
+"What was Apple's net income in 2022?",
+    "What were Apple's total operating expenses in 2022?",
+    "What was Apple's total net sales in 2023?",
+    "What was Apple's total net sales in 2022?",
+    "What was Apple's gross margin in 2023?",
+    "What was Apple's operating income in 2023?",
+    "What was Apple's net income in 2023?",
+    "What were Apple's research and development expenses in 2023?",
+    "What were Apple's selling, general and administrative expenses in 2023?",
+    "How much revenue did Apple's Services business generate in 2023?"
+What was Microsoft's net income in 2023?
+Microsoft's operating income was $88,523 million in 2023.
