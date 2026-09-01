@@ -1,0 +1,216 @@
+Microsoft’s gross margin in 2023 was **$146.052 billion**.
+======================================================================
+Answer: Microsoft’s gross margin in 2023 was **$146.052 billion**.
+
+
+Microsoft’s operating income for fiscal 2023 was **$88.523 billion**.
+======================================================================
+Answer: Microsoft’s operating income for fiscal 2023 was **$88.523 billion**.
+
+
+How much did Microsoft spend on research and development in 2023?
+======================================================================
+Answer: $27.195 billion.
+
+Microsoft’s sales and marketing expenses in fiscal year 2023 were **$22.759 billion**.
+======================================================================
+Answer: Microsoft’s sales and marketing expenses in fiscal year 2023 were **$22.759 billion**.
+
+Microsoft’s general and administrative expenses in fiscal year 2023 were **$7.575 billion**.
+======================================================================
+Answer: Microsoft’s general and administrative expenses in fiscal year 2023 were **$7.575 billion**.
+
+Microsoft’s adjusted diluted earnings per share (nonGAAP) for 2023 was **$9.81**.
+======================================================================
+Answer: Microsoft’s adjusted diluted earnings per share (nonGAAP) for 2023 was **$9.81**.
+
+How much revenue did Microsoft generate from the Intelligent Cloud segment in 2023?
+======================================================================
+Answer: $87.907 billion.
+
+What was Microsoft's Productivity and Business Processes revenue in 2023?
+======================================================================
+Answer: $69.274 billion.
+
+What was Microsoft's More Personal Computing revenue in 2023?
+======================================================================
+Answer: $54.734 billion.
+
+Microsoft’s total operating income across all segments in fiscal year 2023 was **$88.523 billion**.
+======================================================================
+Answer: Microsoft’s total operating income across all segments in fiscal year 2023 was **$88.523 billion**.
+
+What was Microsoft's Microsoft Cloud revenue in fiscal 2023?
+======================================================================
+Answer: $111.6 billion.
+Microsoft’s product revenue in 2023 was **$64.699 billion**.
+======================================================================
+Answer: Microsoft’s product revenue in 2023 was **$64.699 billion**.
+
+What was Microsoft's cost of revenue in 2023?
+======================================================================
+Answer: $65.863 billion.
+
+What was Microsoft's service and other revenue in 2023?
+======================================================================
+Answer: Microsoft’s Service and other revenue in 2023 was **$147.216 billion**.
+
+What was Microsoft's adjusted net income in 2023?
+=======================================================================
+Answer: $73.307 billion.
+
+
+Tesla
+
+
+
+What was Tesla's revenue in 2023?
+======================================================================
+Answer: Tesla’s total revenue in 2023 was **$96.773 billion** (approximately $96.77 billion).
+
+"What was Tesla's net income in 2023?"
+======================================================================
+Answer: Tesla's net income in 2023 was **$14.974 billion**.
+
+What was Tesla's gross margin in 2023?
+======================================================================
+Answer: Tesla’s total gross margin for 2023 was **18.2 %**.
+
+What were Tesla's total assets in 2023?
+======================================================================
+Answer: According to the provided context, Tesla's total assets in 2023 were $106.618 billion.
+
+What was Tesla's service revenue in 2023?
+======================================================================
+Answer: Tesla’s service revenue in 2023 was **$8.319 billion**.
+
+What was Tesla's diluted earnings per share in 2023?
+======================================================================
+Answer: $4.30 per share.
+
+What was Tesla's operating income in 2023?
+======================================================================
+Answer: Tesla's operating income in 2023 was **$8.891 billion**.
+
+What was Tesla's cost of revenue in 2023?
+======================================================================
+Answer: $79.113 billion.
+
+What was Tesla's operating cash flow in 2023?
+======================================================================
+Answer: Tesla’s operating cash flow in 2023 was **$13.256 billion**.
+
+What was Tesla's product revenue in 2023?
+======================================================================
+Answer: Tesla's product revenue in 2023 was **$78.509 billion**.
+
+
+
+Apple
+
+What was Apple's revenue in 2023?
+======================================================================
+Answer: Apple’s total net sales (revenue) in 2023 were **$383.285 billion**.
+
+What was Apple's net income in 2023?
+======================================================================
+Answer: Apple’s net income for 2023 was **$96.995 billion**.
+
+What was Apple's gross margin in 2023?
+======================================================================
+Answer: Apple’s gross margin in 2023 was **$169.148 billion**.
+
+What was Apple's cost of sales in 2023?
+======================================================================
+Answer: Apple’s total cost of sales in 2023 was **$214.137 billion**.
+
+What were Apple's operating expenses in 2023?
+======================================================================
+Answer: Apple’s total operating expenses in 2023 were **$54.847 billion**.
+
+What was Apple's research and development expense in 2023?
+======================================================================
+Answer: Apple’s research and development expense in 2023 was **$29.915 billion**.
+
+What was Apple's selling, general and administrative expense in 2023?
+======================================================================
+Answer: Apple’s selling, general and administrative expense in 2023 was **$24.932 billion**.
+
+What was Apple's operating income in 2023?
+======================================================================
+Answer: Apple’s operating income in 2023 was **$114.301 billion**.
+
+What was Apple's product revenue in 2023?
+======================================================================
+Answer: Apple’s product revenue in 2023 was **$298.085 billion**.
+
+What was Apple's services revenue in 2023?
+======================================================================
+Answer: Apple’s services revenue in 2023 was **$85.2 billion**.
+
+
+
+
+
+
+
+ "What was Microsoft's net income in 2023?",
+    "What was Microsoft's total revenue in 2023?",
+    "What were Microsoft's total operating expenses in 2023?",
+    "What was Microsoft's operating income in 2023?",
+    "What was Microsoft's gross margin in 2023?",
+
+    "What was Tesla's total revenue in 2023?",
+    "What was Tesla's net income in 2023?",
+    "What was Tesla's operating income in 2023?",
+    "What were Tesla's total operating expenses in 2023?",
+    "What was Tesla's gross profit in 2023?"
+]
+
+
+
+
+Apple / Microsoft / Tesla PDFs
+          ↓
+PDF Loading
+          ↓
+Chunking
+          ↓
+HuggingFace Embeddings
+          ↓
+FAISS
+          ↓
+BM25
+          ↓
+Hybrid Retrieval
+          ↓
+Financial Reranking
+          ↓
+Context Expansion
+          ↓
+LLM
+          ↓
+Answer Validation
+
+
+User
+  ↓
+Streamlit
+  ↓
+ask_question()
+  ↓
+rag.py
+  ├── detect company
+  ├── detect year
+  ├── detect metric
+  ├── company filtering
+  ├── BM25
+  ├── FAISS
+  ├── financial reranking
+  ├── deterministic extraction
+  ├── prompt
+  └── Groq
+  ↓
+Answer
+  ↓
+Streamlit
